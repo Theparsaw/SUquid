@@ -1,4 +1,4 @@
-# Squid Quiz Games 🦑🎮  
+# Squid Quiz Games  
 CS408 – Computer Networks Course Project
 
 Squid Quiz Games is a TCP-based multiplayer quiz game with graphical user interfaces for both the server and the clients. Multiple players connect to a central server, answer multiple-choice questions in real time, earn points based on correctness and speed, and compete on a live scoreboard.
@@ -37,7 +37,7 @@ Squid Quiz Games is a TCP-based multiplayer quiz game with graphical user interf
 
 Run the server file:
 
-python m.talebibarmi_Talebibarmi_Mohammadparsa_server.py
+python server.py
 
 Steps:
 1. Enter server IP and port
@@ -53,7 +53,7 @@ Steps:
 
 Run the client file:
 
-python m.talebibarmi_Talebibarmi_Mohammadparsa_client.py
+python client.py
 
 Steps:
 1. Enter server IP and port
@@ -85,12 +85,6 @@ Rules:
 - Thread-safe shared state using locks and queues
 - GUI updates safely handled from background threads
 - Robust error handling for invalid actions and disconnections
-
----
-
-## Author
-
-Mohammadparsa Talebibarmi
 
 ---
 
